@@ -1,0 +1,65 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: gilroy;
+}
+html,
+body{
+   height: 100%;
+   width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.card{
+    width: 20%;
+    aspect-ratio: 2/3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+.card .dp{
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dp img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card h3{
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card button{
+    padding: 0.5rem 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1rem;
+    background-color: rgb(18, 148, 148);
+    border-color: black;
+    font-weight: 600;
+    color: black;
+}
+button :active{
+    scale: 0.8;
+}
+@media(max-width:480px){
+    .card{
+        width: 80%;
+    }
+}

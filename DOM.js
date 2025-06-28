@@ -50,6 +50,22 @@
 
 // difference between innerHTML and textContent:
 
-var box=document.querySelector("#box")
-box.innerHTML="<h1>hello</h1>"
-box.textContent="<h1>hello</h1>"
+// var box=document.querySelector("#box")
+// box.innerHTML="<h1>hello</h1>"
+// box.textContent="<h1>hello</h1>"
+
+// Math.random() project - for delay
+// -change color 
+// -IPL Winner 
+
+// setTimeout() project - controlled loop
+// -friendship requet
+
+// setInterval() project
+// -mp3 downloader
+
+// 1. getAttribute and setAttribute -image swap
+// 2. creating an element-chutki image creation
+// 3. Mouse Events,Keyboard Events,Scroll Events,DoubleClick 
+// Events,Wheel Events
+
